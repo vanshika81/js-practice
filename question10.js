@@ -1,5 +1,6 @@
 function Array(numbers) {
-    if (numbers.length === 0) return {};
+    if (numbers.length === 0) 
+        return {};
 
     const smallest = Math.min(...numbers);
     const largest = Math.max(...numbers);
