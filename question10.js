@@ -9,6 +9,6 @@ function Array(numbers) {
     return { smallest, largest, average };
 }
 
-console.log(Array([10, 20, 30, 40, 50]));
+console.log(Array([18, 200, 30, 4, 90]));
 
 
