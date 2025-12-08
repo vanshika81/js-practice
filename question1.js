@@ -1,5 +1,8 @@
+//1. Declare three variables using var, let, and const.
+//  Try reassigning each. Which ones allow reassignment?
+
 // Using var
-var var1 = 10
+//var var1 = 10
 console.log("Initial var var1:", var1);
 
 // Using let
@@ -18,7 +21,13 @@ var2= 900
 console.log("Reassigned let var2:", var2);
 
 var3 =768
-console.log("Reassigned const var3", var3);
+console.log("Reassigned const var3", var3);// error assigned to constant variable
+
 
 
 // var and let variables can be reassigend but for const its not allowed
+
+
+////o/p :Initial const var3 :30
+//Reassigned var var1 : 100
+//Reassigned let var2 : 900

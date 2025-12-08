@@ -1,3 +1,6 @@
+//6. Create a class Car with properties brand and year. 
+// Add a method getInfo() that returns "Brand: Tesla, Year: 2022".
+
 class Car {
     brand = "Tesla";
     year = 2022;
@@ -8,4 +11,4 @@ class Car {
 }
 
 const myCar = new Car();
-console.log(myCar.getInfo())
+console.log(myCar.getInfo()) //o/p: Brand: Tesla, Year: 2022

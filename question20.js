@@ -1,3 +1,6 @@
+//8. Modify fetchData() to throw an error if a flag isError is true. 
+// Use try...catch with async/await to handle it.
+
 
 async function fetchData(hasError) {
   return new Promise((resolve, reject) => {
@@ -15,10 +18,12 @@ async function fetchData(hasError) {
 async function finalData() {
   try {
     const result = await fetchData(true); 
-    console.log(result);
+    console.log(result);         
   } catch (error) {
-    console.log(error);
+    console.log(error);              //o/p : Error
+
   }
 }
 
 finalData();
+
