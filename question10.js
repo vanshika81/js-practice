@@ -1,3 +1,6 @@
+//10. Write a function that accepts an array and returns an object with min, max, and average.
+
+
 function Array(numbers) {
     if (numbers.length === 0) 
         return {};
@@ -11,5 +14,6 @@ function Array(numbers) {
 }
 
 console.log(Array([18, 200, 30, 4, 90]));
+//o/p: { smallest: 4, largest: 200, average: 68.4 }
 
 
